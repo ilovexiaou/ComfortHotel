@@ -6,9 +6,6 @@
 <struts>
     <include file="struts-default.xml" />
     
-    <constant name="struts.i18n.encoding" value="GB18030"></constant>
-    <constant name="struts.configuration.xml.reload" value="true"></constant>
-    <constant name="struts.devMode" value="true"></constant>
 
 	<package name="struts2" extends="struts-default">
 	   <action name="login" class="com.elvis.web.action.LoginAction">
