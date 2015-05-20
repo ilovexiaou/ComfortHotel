@@ -39,14 +39,14 @@ body {
 
    
     <div  style=" width:950px">
-        <div  style=" float:left; width:110px;"> <a href="register.jsp" target="_top">首页预览</a></div>
+        <div  style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">首页预览</a></div>
          <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">在线预订</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top"> 设置服务</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">酒店图片</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">啦啦啦啦</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top"> 啊呜呜呜</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">哈哈哈哈</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">人才招聘</a></div>         
+         <div style=" float:left; width:110px;"> <a href="index_service3.jsp" target="_top"> 服务设施</a></div>
+         <div style=" float:left; width:110px;"> <a href="index_picture4.jsp" target="_top">酒店图片</a></div>
+         <div style=" float:left; width:110px;"> <a href="index_map5.jsp" target="_top">地图位置</a></div>
+         <div style=" float:left; width:110px;"> <a href="index_discount6.jsp" target="_top"> 优惠信息</a></div>
+         <div style=" float:left; width:110px;"> <a href="index_discount6.jsp" target="_top">新闻资讯</a></div>
+         <div style=" float:left; width:110px;"> <a href="index_discount6.jsp" target="_top">人才招聘</a></div>         
     </div>
 
 </body>

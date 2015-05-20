@@ -7,7 +7,7 @@
 
     <head>
     <title>ComfortHotel</title>
- 
+     
     </head>
     
     <frameset rows="150,*" frameborder="no" border="0" framespacing="0">

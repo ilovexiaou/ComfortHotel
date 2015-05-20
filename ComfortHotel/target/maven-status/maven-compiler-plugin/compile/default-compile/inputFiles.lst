@@ -1,5 +1,9 @@
 E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\web\action\LoginAction.java
 E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\service\UserService.java
 E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\web\action\RegisterAction.java
+E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\dao\impl\BaseDaoImpl.java
 E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\domain\User.java
+E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\dao\impl\UserDaoImpl.java
+E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\service\impl\UserServiceImpl.java
+E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\utils\HibernateUtils.java
 E:\ComfortHotel_git\ComfortHotel\src\main\java\com\elvis\dao\UserDao.java
