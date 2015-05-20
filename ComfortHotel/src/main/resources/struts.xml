@@ -9,7 +9,7 @@
 
 	<package name="struts2" extends="struts-default">
 	   <action name="login" class="com.elvis.web.action.LoginAction">
-	       <result name="success">/jsp/login_success.jsp</result>
+	       <result name="success">/jsp/head_login.jsp</result>
 	       <result name="error">/jsp/login_error.jsp</result>
 	   </action>
 	   
