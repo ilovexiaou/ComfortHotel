@@ -26,7 +26,7 @@ public class HibernateText {
             //开启事务
             session.beginTransaction();
             User user=new User();
-            user.setName("胡说");
+            user.setUsername("胡说");
             user.setPassword("123");
             
             //保存对象 
