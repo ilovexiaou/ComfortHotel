@@ -17,8 +17,10 @@ public class LoginAction extends ActionSupport implements SessionAware {
     private String password;
     private Map<String,Object> session;
     
+    
+    
     public String execute(){
-            User user = dao.isValidAdmin(username, password);//将username和password传递到dao层交个hibernate判断
+            User user = dao.isValidAdmin(username, password);//将username和password传递到dao层交给hibernate判断
             if(user!=null){
                 session.put("user", user);//若登陆成功则将该user记录在session中
                 return "success";

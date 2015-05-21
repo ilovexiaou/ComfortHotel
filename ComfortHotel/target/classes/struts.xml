@@ -17,7 +17,12 @@
            <result name="success">/jsp/login_success.jsp</result>
            <result name="error">/jsp/login_error.jsp</result>
        </action>
-	
+	   
+	   <action name="room" class="com.elvis.web.action.RoomAction">
+           <result name="success" >/jsp/main_search.jsp</result>
+           <result name="error">/jsp/login_error.jsp</result>
+       </action>
+       
 	</package>
 	
 		   

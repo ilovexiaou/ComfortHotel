@@ -40,7 +40,7 @@ body {
    
     <div  style=" width:950px">
         <div  style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">首页预览</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">在线预订</a></div>
+         <div style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">在线预订</a></div>
          <div style=" float:left; width:110px;"> <a href="index_service3.jsp" target="_top"> 服务设施</a></div>
          <div style=" float:left; width:110px;"> <a href="index_picture4.jsp" target="_top">酒店图片</a></div>
          <div style=" float:left; width:110px;"> <a href="index_map5.jsp" target="_top">地图位置</a></div>

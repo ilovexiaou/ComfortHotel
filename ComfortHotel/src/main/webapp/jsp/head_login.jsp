@@ -33,14 +33,28 @@ body {
         <div  style=" float:left; width:150px;"><img src="picture/logo.jpg"> </div>            
         <div  style=" float:left; width:500px;"><img src="picture/logo2.jpg"></div>  
         <div  style=" float:left; width:250px;"><img src="picture/logo3.jpg"></div>
-        <div style=" float:left; width:200px; align="right";> 欢迎${username}</div>
         
-    </div>
+               
+     
+
+		<%
+		    if (true) {
+		%>
+		<div style=" float:left; width:200px; align="right";> 欢迎${username}</div>
+		<%
+		    } else {
+		%>
+		<div style=" float:left; width:50px; align="right";> <a href="register.jsp" target="_top">注册</a></div>
+        <div style=" float:left; width:50px; align="right";><a href="login.jsp" target="_blank">登陆</a></div>
+		<%}%>
+
+
+	</div>
 
    
     <div  style=" width:950px">
         <div  style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">首页预览</a></div>
-         <div style=" float:left; width:110px;"> <a href="register.jsp" target="_top">在线预订</a></div>
+         <div style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">在线预订</a></div>
          <div style=" float:left; width:110px;"> <a href="index_service3.jsp" target="_top"> 服务设施</a></div>
          <div style=" float:left; width:110px;"> <a href="index_picture4.jsp" target="_top">酒店图片</a></div>
          <div style=" float:left; width:110px;"> <a href="index_map5.jsp" target="_top">地图位置</a></div>

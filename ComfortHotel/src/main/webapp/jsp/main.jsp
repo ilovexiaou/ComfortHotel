@@ -10,10 +10,28 @@
            margin-right:250px;
            background-color: gray;
            font-size: 20px;
+           color: yellow;
         }
-    </style>
+	</style>
+
 </head>
-<body>
-main
+<body >
+	<div >在线预订</div>
+	<div >---------------------------------------------------------------</div>
+	<div>
+	    <form action="room.action">
+	               选择房间
+			<select  name="id">
+				<option value="1"  selected="selected">总统套房</option>
+				<option value="2">情侣套房</option>
+				<option value="3">商务客房</option>
+				<option value="4">特殊房间</option>
+			</select>
+			
+			<input type="submit" value="提交">
+						
+		</form>
+	</div>
+
 </body>
 </html>

@@ -13,5 +13,6 @@
 		<property name="connection.characterEncoding">UTF-8</property>
 		
 		<mapping resource="com/elvis/domain/User.hbm.xml"/>
+		<mapping resource="com/elvis/domain/Room.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>

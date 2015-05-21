@@ -18,5 +18,9 @@
     <div>
     <img src="picture/homeleft.jpg"/>
     </div>
+    
+    <div>
+    <img src="picture/process.jpg"/>
+    </div>
 </body>
 </html>
