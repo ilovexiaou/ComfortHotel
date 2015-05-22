@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" import="com.elvis.domain.*" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -33,14 +33,25 @@ body {
         <div  style=" float:left; width:150px;"><img src="picture/logo.jpg"> </div>            
         <div  style=" float:left; width:500px;"><img src="picture/logo2.jpg"></div>  
         <div  style=" float:left; width:250px;"><img src="picture/logo3.jpg"></div>
-        
-               
-     
+
+
+        <%
+		boolean userlogined = false;
+    
+		User user = (User) session.getAttribute("user");
+		String str=user.getUsername();
+		if (str != null ) {
+		    userlogined = true;
+		}
+		
+		%> 
+		
 
 		<%
-		    if (true) {
+		    if (userlogined) {
 		%>
-		<div style=" float:left; width:200px; align="right";> 欢迎${username}</div>
+		<div style=" float:left; width:100px; align="right";> 欢迎${user.username}</div>
+		<a href="exit.jsp" target="_top">退出</a>
 		<%
 		    } else {
 		%>
@@ -52,7 +63,7 @@ body {
 	</div>
 
    
-    <div  style=" width:950px">
+    <div  style="clear:both" >
         <div  style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">首页预览</a></div>
          <div style=" float:left; width:110px;"> <a href="../index.jsp" target="_top">在线预订</a></div>
          <div style=" float:left; width:110px;"> <a href="index_service3.jsp" target="_top"> 服务设施</a></div>

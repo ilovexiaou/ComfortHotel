@@ -13,6 +13,8 @@
            color: yellow;
         }
     </style>
+    
+    <script type="text/javascript" src="javascript/DatePicker.js"></script>
 </head>
 <body >
 	<div >在线预订</div>
@@ -34,27 +36,23 @@
     
 	<div>
 	   
-			<table >
-			 <tr>
-			  <td><table width="100px" border=1>房型</table></td>
-			  <td><table width="100px" border=1>等级</table></td>
-			  <td><table width="100px" border=1>类型</table></td>
-			  <td><table width="100px" border=1>价格</table></td>
-			  <td><table width="100px" border=1>优惠</table></td>
-			  <td><table width="100px" border=1>预订</table></td>
-			 </tr>
+			<form action="reserve.action">
+			     <div>---------------------------------------------------------------</div>
+			     <div>房型 &nbsp;&nbsp;&nbsp;&nbsp;     ${room.roomname}</div>
+			     <div>等级 &nbsp;&nbsp;&nbsp;&nbsp;     ${room.roomgrade}</div>
+			     <div>类型 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.roomtype}</div>
+			     <div>价格 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.roomprice}</div>
+			     <div>优惠 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.discount}</div>			     
+			     <div>预订时间    
+			      <input id="begintime" type="text" onclick="setday(this)" readonly="readonly" />
+			      <input id="endtime" type="text" onclick="setday(this)" readonly="readonly" />
+			      </div>
+			     <div></div>
+			     <input type="submit" value="预订">
+			</form>
 			 
 			 								 			  
-              <tr>
-              <td><table border=1>${room.roomname}</table></td>
-              <td><table border=1>${room.roomgrade}</table></td>
-              <td><table border=1>${room.roomtype}</table></td>
-              <td><table border=1>${room.roomprice}</table></td>
-              <td><table border=1>${room.discount}</table></td>
-              <td><table border=1><a href="main_order.jsp">预订</a></table></td>              
-              </tr>
-             </table> 
-	
+                     	
 		
 	</div>
 	

@@ -9,7 +9,7 @@
 
 	<package name="struts2" extends="struts-default">
 	   <action name="login" class="com.elvis.web.action.LoginAction">
-	       <result name="success">/jsp/head_login.jsp</result>
+	       <result name="success">/jsp/index_login.jsp</result>
 	       <result name="error">/jsp/login_error.jsp</result>
 	   </action>
 	   
@@ -22,6 +22,12 @@
            <result name="success" >/jsp/main_search.jsp</result>
            <result name="error">/jsp/login_error.jsp</result>
        </action>
+       
+       <action name="reserve" class="com.elvis.web.action.ReservationAction">
+           <result name="success" >/jsp/main_reserve.jsp</result>
+           <result name="error">/jsp/login_error.jsp</result>
+       </action>
+       
        
 	</package>
 	

@@ -11,10 +11,10 @@
     </head>
     
     <frameset rows="150,*" frameborder="no" border="0" framespacing="0">
-        <frame src="jsp/head_login.jsp" name="head" scrolling="no" noresize="noresize"/>
+        <frame src="head_login.jsp" name="head" scrolling="no" noresize="noresize"/>
         <frameset cols="500px,*" frameborder="no" border="0" framespacing="0">
-            <frame src="jsp/left.jsp" name="letf" scrolling="no" noresize="noresize"/>
-            <frame src="jsp/main.jsp" name="main" scrolling="no" noresize="noresize"/>
+            <frame src="left.jsp" name="letf" scrolling="no" noresize="noresize"/>
+            <frame src="main.jsp" name="main" scrolling="no" noresize="noresize"/>
         </frameset>
     </frameset>
 

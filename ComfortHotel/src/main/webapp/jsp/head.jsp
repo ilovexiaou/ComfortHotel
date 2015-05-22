@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
+<%@ page language="java" import="com.elvis.domain.*" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
@@ -33,8 +33,29 @@ body {
         <div  style=" float:left; width:150px;"><img src="picture/logo.jpg"> </div>            
         <div  style=" float:left; width:500px;"><img src="picture/logo2.jpg"></div>  
         <div  style=" float:left; width:250px;"><img src="picture/logo3.jpg"></div>
+        
+        <%
+        boolean userlogined = false;
+           
+        if (session.getAttribute("user")!= null ) {
+            userlogined = true;
+        }
+        
+        %> 
+        
+
+        <%
+            if (userlogined) {
+        %>
+        <div style=" float:left; width:100px; align="right";> 欢迎${user.username}</div>
+        <a href="exit.jsp" target="_top">退出</a>
+        <%
+            } else {
+        %>
         <div style=" float:left; width:50px; align="right";> <a href="register.jsp" target="_top">注册</a></div>
         <div style=" float:left; width:50px; align="right";><a href="login.jsp" target="_blank">登陆</a></div>
+        <%}%>
+        
     </div>
 
    

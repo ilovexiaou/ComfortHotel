@@ -14,5 +14,6 @@
 		
 		<mapping resource="com/elvis/domain/User.hbm.xml"/>
 		<mapping resource="com/elvis/domain/Room.hbm.xml"/>
+		<mapping resource="com/elvis/domain/Reservation.hbm.xml"/>
 	</session-factory>
 </hibernate-configuration>
