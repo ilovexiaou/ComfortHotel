@@ -37,19 +37,29 @@
 	<div>
 	   
 			<form action="reserve.action">
+			
 			     <div>---------------------------------------------------------------</div>
+			     <div>${user.username} <input type="hidden" name="userid" value=${user.username}></div>
 			     <div>房型 &nbsp;&nbsp;&nbsp;&nbsp;     ${room.roomname}</div>
+			     <div>房号 &nbsp;&nbsp;&nbsp;&nbsp;     ${room.id}
+			       <input type="hidden" name="roomid" value=${room.id}> 
+			     </div>
 			     <div>等级 &nbsp;&nbsp;&nbsp;&nbsp;     ${room.roomgrade}</div>
 			     <div>类型 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.roomtype}</div>
-			     <div>价格 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.roomprice}</div>
+			     <div >价格 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.roomprice}
+			         <input type="hidden" name="roomprice" value=${room.roomprice}>
+			     </div>
 			     <div>优惠 &nbsp;&nbsp;&nbsp;&nbsp;    ${room.discount}</div>			     
 			     <div>预订时间    
-			      <input id="begintime" type="text" onclick="setday(this)" readonly="readonly" />
-			      <input id="endtime" type="text" onclick="setday(this)" readonly="readonly" />
+			      <input name="checkintime"  type="text" onclick="setday(this)" readonly="readonly" />
+			      <input name="checkouttime"  type="text" onclick="setday(this)" readonly="readonly" />
 			      </div>
 			     <div></div>
 			     <input type="submit" value="预订">
+			     
 			</form>
+			
+
 			 
 			 								 			  
                      	

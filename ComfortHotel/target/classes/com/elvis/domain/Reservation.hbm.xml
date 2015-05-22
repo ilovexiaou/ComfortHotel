@@ -14,5 +14,6 @@
         <property name="checkintime"/>
         <property name="checkouttime"/>
         <property name="finalcost"/>
+        <property name="roomprice"/>
     </class>
 </hibernate-mapping>

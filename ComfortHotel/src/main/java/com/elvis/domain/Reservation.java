@@ -10,6 +10,16 @@ public class Reservation {
     private Date checkintime;
     private Date checkouttime;
     private String finalcost;
+    private String roomprice;
+    
+    
+    
+    public String getRoomprice() {
+        return roomprice;
+    }
+    public void setRoomprice(String roomprice) {
+        this.roomprice = roomprice;
+    }
     public String getId() {
         return id;
     }
