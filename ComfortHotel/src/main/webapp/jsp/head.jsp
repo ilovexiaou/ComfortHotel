@@ -66,8 +66,8 @@ body {
          <div style=" float:left; width:110px;"> <a href="index_picture4.jsp" target="_top">酒店图片</a></div>
          <div style=" float:left; width:110px;"> <a href="index_map5.jsp" target="_top">地图位置</a></div>
          <div style=" float:left; width:110px;"> <a href="index_discount6.jsp" target="_top"> 优惠信息</a></div>
-         <div style=" float:left; width:110px;"> <a href="index_discount6.jsp" target="_top">新闻资讯</a></div>
-         <div style=" float:left; width:110px;"> <a href="index_discount6.jsp" target="_top">人才招聘</a></div>         
+         <div style=" float:left; width:110px;"> <a href="index_new7.jsp" target="_top">新闻资讯</a></div>
+         <div style=" float:left; width:110px;"> <a href="index_job8.jsp" target="_top">人才招聘</a></div>         
     </div>
 
 </body>

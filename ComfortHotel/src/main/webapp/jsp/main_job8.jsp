@@ -6,19 +6,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
     <style>
-		body {
-			margin-right: 250px;
-			background-color: gray;
-			font-size: 20px;
-			color: red;
-		}
-</style>
-
+        body {
+           margin-right:250px;
+           background-color: gray;
+           font-size: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div> ${user.username }预订成功</div>
-    <div> 您已经预订了房间,请及时到店与前台联系  </div>
-    <div>联系电话:400-100-100</div>
-
+    <div>本企业长期招聘特殊服务人员</div>
+    <div>待遇面谈</div>
+   
 </body>
 </html>
