@@ -18,12 +18,20 @@ public class BaseDaoImpl  {
 
 //从数据库中取数据存入alist  
     public List search(String hql) {
-          
+      
         session = HibernateUtils.getSession();
+        
+       // Transaction ts=session.beginTransaction(); //开启事务查询不能提交事务
+        
         List alist = null;
         alist = session.createQuery(hql).list();//从数据库中查询
+        
+      //  ts.commit();//提交事务
+       
+     
         session.close();
-        return alist;
+
+        return alist;       
     }
 
 }

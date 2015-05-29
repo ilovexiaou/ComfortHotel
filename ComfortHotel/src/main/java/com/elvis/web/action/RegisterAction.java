@@ -20,8 +20,10 @@ public class RegisterAction implements Action,ModelDriven<User> {
         Session session=null;
         try {
             session=HibernateUtils.getSession();
+            
+            
             Transaction tx=session.beginTransaction();
-            //transaction状态
+            //transaction状态 开启事务
        
             user.setUsername(user.getUsername());
             user.setPassword(user.getPassword());
@@ -30,7 +32,7 @@ public class RegisterAction implements Action,ModelDriven<User> {
             
             //persistent状态
             session.save(user);
-            tx.commit();
+            tx.commit(); //提交
             return "success";
         } catch (Exception e) {
             e.printStackTrace(); 
